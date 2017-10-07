@@ -1,0 +1,47 @@
+header .navbar-tabs {
+  justify-content: center;
+}/*เป็นคำสั่งให้เราทำอะไรได้บาง*/
+
+.highlight {
+  margin-bottom: 0.1 !important;
+}
+.highlight .highlight-item {
+  height: 416px;/*บอกขนาดไซ*/
+  background: url(/assets/images/home/banner/highlight.jpg) no-repeat center/cover;
+}
+
+.highlight .highlight-item,
+.thumbnail .thumbnail-item {
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 50rem;
+}
+
+.highlight .highlight-item h1 {
+  font-size: 100px;/*เพิ่มขนาดฟอน*/
+}
+.thumbnail {
+  border-top: 0.1rem solid #ffffff;
+}
+
+.thumbnail .thumbnail-item + .thumbnail-item {
+  border-left: 0.1rem solid #ffffff;
+}
+/*ขนาดที่เราเว้นวัก*/
+.thumbnail .thumbnail-item {
+  background-repeat: no-repeat;/*เราต้องการใส่ฟอนไปในรูปภาพ*/
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25rem;/*บอกขนาดไซ*/
+}
+
+
